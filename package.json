@@ -1,0 +1,21 @@
+{
+  "name": "tree-traversals",
+  "version": "1.0.0",
+  "description": "Trees are an essential part of storing data, or at computer scientists like to refer them as, data structures. Among their benefits is that they're optimized to be searchable. Occasionally you need to serialize the entire tree into a flat data structure.",
+  "main": "depth-first-traversals.test.js",
+  "author": "Saidur Rahman <saidur2k@hotmail.com> (http://rudias.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "4.1.2",
+    "mocha": "5.1.0",
+    "standard": "11.0.1"
+  },
+  "scripts": {
+    "lint": "standard *.js",
+    "lint:fix": "standard *.js --fix",
+    "test": "mocha *.test.js"
+  },
+  "standard": {
+    "env": ["node", "mocha"]
+  }
+}
