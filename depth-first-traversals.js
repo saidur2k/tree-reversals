@@ -47,6 +47,15 @@ const postorderTraverse = (node, array) => {
   return array
 }
 
+// For a sorted list out of a BST, you'd want to use [inorder]. If you're making
+// a deep copy of a tree, [preorder] traversal is super useful since
+// you'd copy a node, and then add its left child and then its
+// right tree. [Postorder] would be useful if you're deleting
+// a tree since you'd process the left tree, then
+// the right, and only after the children had
+// been deleted would you delete the
+// node you're working on.
+
 module.exports = {
   preorderTraverse,
   inorderTraverse,
